@@ -26,7 +26,7 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <div>
               <img
-                src="public/logo.png"
+                src="/logo.jpg"
                 alt="Varcity Infotech Logo"
                 className="w-20 h-20 rounded-full border-2 border-cyan-400 shadow-lg"
               />
