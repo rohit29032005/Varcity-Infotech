@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: my-react-app
+    env: docker
+    repo: https://github.com/rohit29032005/Varcity-Infotech
+    branch: main
+    dockerfilePath: Dockerfile
+    plan: free
