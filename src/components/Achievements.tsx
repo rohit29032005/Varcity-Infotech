@@ -7,28 +7,28 @@ const Achievements = () => {
   const achievements = [
     {
       icon: Trophy,
-      title: 'Best Educator Award 2023',
-      description: 'Recognized as the leading computer education provider',
+      title: 'Quality Council of India Award',
+      description: 'Certified for excellence in education',
       year: '2023',
       color: 'from-yellow-400 to-orange-500'
     },
     {
       icon: Award,
-      title: 'Industry Excellence Award',
+      title: 'International Accreditation Forum',
       description: 'Outstanding contribution to tech education',
       year: '2022',
       color: 'from-blue-400 to-cyan-500'
     },
     {
       icon: Star,
-      title: 'Innovation in Teaching',
+      title: 'Quality Research Organization (ORO)',
       description: 'Revolutionary approach to programming education',
       year: '2023',
       color: 'from-purple-400 to-pink-500'
     },
     {
       icon: Medal,
-      title: 'Top 10 EdTech Leader',
+      title: 'EGAC Certification',
       description: 'Listed among top educational technology leaders',
       year: '2022',
       color: 'from-green-400 to-emerald-500'
@@ -42,8 +42,8 @@ const Achievements = () => {
     },
     {
       icon: BookOpen,
-      title: 'Published Author',
-      description: 'Author of "Modern Programming Techniques"',
+      title: 'MSME Recognition',
+      description: 'Recognized as a leading educational institution',
       year: '2021',
       color: 'from-indigo-400 to-purple-500'
     }
@@ -51,27 +51,27 @@ const Achievements = () => {
 
   const testimonials = [
     {
-      name: 'Sarah Johnson',
-      role: 'Software Engineer at Google',
+      name: 'Rahul Sharma',
+      role: 'Senior Documentation Executive at Varcity Infotech at Techfab Corporation',
       content: 'The AI/ML course completely transformed my career. The practical approach and industry-relevant projects made all the difference.',
       rating: 5
     },
     {
-      name: 'Michael Chen',
-      role: 'Full Stack Developer',
+      name: 'Anjali Verma',
+      role: 'Tally Specialist at Enicar Pharma Ltd.',
       content: 'Best investment I made for my career. The instructors are amazing and the curriculum is always up-to-date with industry standards.',
       rating: 5
     },
     {
-      name: 'Emily Rodriguez',
-      role: 'Data Scientist at Microsoft',
+      name: 'Sakshi Gupta',
+      role: ' Accounts Executive at Shree Giriraj Steel Enterprises',
       content: 'The Data Science course provided me with both theoretical knowledge and practical skills. Landed my dream job within 3 months!',
       rating: 5
     }
   ];
 
   const partners = [
-    'Google', 'Microsoft', 'Amazon', 'Meta', 'Apple', 'Netflix', 'Tesla', 'IBM'
+    'Google', 'Microsoft', 'Amazon', 'SGTV', 'MVST', 'SSt', 'Siyaram', 'IBM'
   ];
 
   useEffect(() => {

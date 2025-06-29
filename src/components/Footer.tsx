@@ -35,9 +35,9 @@ const Footer = () => {
                 {/* <Code2 className="w-8 h-8 text-cyan-400 transform group-hover:rotate-12 transition-transform duration-300" />
                 <div className="absolute inset-0 bg-cyan-400/20 blur-xl group-hover:blur-2xl transition-all duration-300"></div> */}
                 <img
-                  src="/logo.jpg"
+                  src="/logo1.PNG"
                   alt="Varcity Infotech Logo"
-                  className="w-10 h-10 rounded-full border-2 border-cyan-400 shadow-lg"></img>
+                  className="w-10 h-10 sm:w-12 sm:h-12 lg:w-14 lg:h-14 rounded-full border-2 border-cyan-400 shadow-lg object-contain bg-white"></img>
               </div>
               <h3 className="text-xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
                 Varcity Infotech Computer Education

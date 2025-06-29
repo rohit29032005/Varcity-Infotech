@@ -5,7 +5,7 @@ const Courses = () => {
   const courses = [
     {
       icon: Globe,
-      title: 'Web Development',
+      title: 'Web Development With MERN Stack',
       description: 'Master HTML, CSS, JavaScript, React, and full-stack development',
       duration: '6 months',
       level: 'Beginner to Advanced',
@@ -14,44 +14,44 @@ const Courses = () => {
     },
     {
       icon: Brain,
-      title: 'AI/ML',
-      description: 'Dive into Artificial Intelligence and Machine Learning with Python',
+      title: 'Diploma In Financial Accounting',
+      description: 'The topic covers Microsoft Office,Advanced Excel, Tally, and GST',
       duration: '8 months',
-      level: 'Intermediate',
+      level: 'Bignner to Advanced',
       students: '3,100+',
       color: 'from-purple-500 to-pink-500'
     },
     {
       icon: Database,
-      title: 'Data Science',
-      description: 'Analyze data, create insights, and build predictive models',
-      duration: '7 months',
+      title: 'Certificate In SAP Systems,Application & Products',
+      description: 'SAP FICO,SAP MM ,SAP SD,SAP ABAP, and SAP HR',
+      duration: '3 months',
       level: 'Intermediate',
       students: '2,800+',
       color: 'from-green-500 to-emerald-500'
     },
     {
       icon: Shield,
-      title: 'Ethical Hacking',
-      description: 'Learn cybersecurity, penetration testing, and security auditing',
-      duration: '5 months',
-      level: 'Advanced',
+      title: 'Diploma In Software Engineering(DSE)',
+      description: ' Web development,Programming Language,Java,Dot Net, and Python',
+      duration: '1 year',
+      level: 'Beginner to Advanced',
       students: '1,900+',
       color: 'from-red-500 to-orange-500'
     },
     {
       icon: Cpu,
-      title: 'Embedded Systems',
-      description: 'Hardware programming, IoT, and microcontroller development',
-      duration: '6 months',
+      title: 'Diploma In Web Designing & Development',
+      description: 'Coreldraw,Photoshop,& Html, CSS, JS ,PHP & MySQL',
+      duration: '10 months',
       level: 'Intermediate',
       students: '1,400+',
       color: 'from-yellow-500 to-amber-500'
     },
     {
       icon: Code,
-      title: 'PHP Development',
-      description: 'Server-side scripting, Laravel, and dynamic web applications',
+      title: 'Certificate In Computerized Accounting',
+      description: 'Tally Prime, Tally ERP 9, and GST, including practical training',
       duration: '4 months',
       level: 'Beginner',
       students: '2,600+',
@@ -59,19 +59,19 @@ const Courses = () => {
     },
     {
       icon: BarChart3,
-      title: 'Excel Mastery',
-      description: 'Advanced Excel, VBA programming, and data analysis',
-      duration: '3 months',
+      title: 'Certificate Course In Python PHP & ADD',
+      description: 'Get a certified course in Python, PHP, ADD ,Digital Marketing, and more',
+      duration: '4 months',
       level: 'Beginner to Advanced',
       students: '4,100+',
       color: 'from-teal-500 to-green-500'
     },
     {
       icon: FileText,
-      title: 'Full Stack Development',
-      description: 'Complete web development with modern frameworks and databases',
+      title: 'Data Structures & Algorithms with Desgin Anyalsis',
+      description: 'Learn the fundamentals of data structures and algorithms with practical applications',
       duration: '10 months',
-      level: 'Intermediate to Advanced',
+      level: 'Beginner to Advanced',
       students: '3,700+',
       color: 'from-slate-600 to-slate-500'
     }

@@ -13,7 +13,7 @@ const Contact = () => {
   const [mapView, setMapView] = useState('3d'); // '3d' or 'real'
   const [isEditingLocation, setIsEditingLocation] = useState(false);
   const [currentLocation, setCurrentLocation] = useState({
-    name: 'Varcity Infotech Computer Education',
+    name: 'Varcity Infotech Computer Education-Boisar Branch',
     address: ['Second Floor, Ostwal Empire, B/242', 'Arihant Market, above Aradhna Jewellers', 'opp. ST Bus Stand, Boisar, Maharashtra 401501'],
     coordinates: { lat: 19.799371, lng: 72.75864159999999 },
     buildingType: 'tech', // 'tech', 'university', 'corporate'
@@ -29,26 +29,33 @@ const Contact = () => {
   // Predefined locations for quick switching
   const predefinedLocations = [
     {
-      name: 'Varcity Infotech Computer Education',
-      address: ['Second Floor, Ostwal Empire, B/242', 'Arihant Market, above Aradhna Jewellers', 'opp. ST Bus Stand, Boisar, Maharashtra 401501'],
+      name: 'Varcity Infotech Computer Education-Palghar Branch',
+      address: ['Office No.8,1st Floor,Hakimi Manzil,Above Panchwati Sweets,Opp.Railway Station,Palghar(W)'],
       coordinates: { lat: 19.799371, lng: 72.75864159999999 },
       buildingType: 'tech',
       mapUrl: 'https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d109959.7043257355!2d72.67623989975556!3d19.799352115452802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3be71ef842d07ae1%3A0x9da2e9352b83b99a!2sSecond%20Floor%2C%20Ostwal%20Empire%2C%20B%2F242%2C%20Arihant%20Market%2C%20above%20Aradhna%20Jewellers%2C%20opp.%20ST%20Bus%20Stand%2C%20W%2C%20Boisar%2C%20Maharashtra%20401501!3m2!1d19.799371!2d72.75864159999999!5e1!3m2!1sen!2sin!4v1750007887923!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
     },
     {
-      name: 'Varcity Infotech Computer Education - VIT Campus',
-      address: ['Q Block Hostel', 'VIT Vellore 632014', 'Tamil Nadu, India'],
-      coordinates: { lat: 12.9698, lng: 79.1556 },
-      buildingType: 'university',
-      mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.6285!2d79.1556!3d12.9698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad47a1c1234567%3A0xabcdefabcdef!2sVIT+Vellore!5e0!3m2!1sen!2sin!4v1712345678902'
+      name: 'Varcity Infotech Computer Education-Boisar Branch',
+      address: ['Office No.8,1st Floor,Hakimi Manzil,Above Panchwati Sweets,Opp.Railway Station,Palghar(W)'],
+      coordinates: { lat: 19.799371, lng: 72.75864159999999 },
+      buildingType: 'tech',
+      mapUrl: 'https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d109959.7043257355!2d72.67623989975556!3d19.799352115452802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3be71ef842d07ae1%3A0x9da2e9352b83b99a!2sSecond%20Floor%2C%20Ostwal%20Empire%2C%20B%2F242%2C%20Arihant%20Market%2C%20above%20Aradhna%20Jewellers%2C%20opp.%20ST%20Bus%20Stand%2C%20W%2C%20Boisar%2C%20Maharashtra%20401501!3m2!1d19.799371!2d72.75864159999999!5e1!3m2!1sen!2sin!4v1750007887923!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
     },
-    {
-      name: 'CodeMaster Institute - Mumbai Branch',
-      address: ['456 Innovation Drive', 'Powai, Mumbai', 'Maharashtra - 400076'],
-      coordinates: { lat: 19.1176, lng: 72.9060 },
-      buildingType: 'corporate',
-      mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.8285!2d72.9060!3d19.1176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8c1c1234567%3A0xabcdefabcdef!2sPowai+Mumbai!5e0!3m2!1sen!2sin!4v1712345678903'
-    }
+    // {
+    //   name: 'Varcity Infotech Computer Education - VIT Campus',
+    //   address: ['Q Block Hostel', 'VIT Vellore 632014', 'Tamil Nadu, India'],
+    //   coordinates: { lat: 12.9698, lng: 79.1556 },
+    //   buildingType: 'university',
+    //   mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.6285!2d79.1556!3d12.9698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad47a1c1234567%3A0xabcdefabcdef!2sVIT+Vellore!5e0!3m2!1sen!2sin!4v1712345678902'
+    // },
+    // {
+    //   name: 'CodeMaster Institute - Mumbai Branch',
+    //   address: ['456 Innovation Drive', 'Powai, Mumbai', 'Maharashtra - 400076'],
+    //   coordinates: { lat: 19.1176, lng: 72.9060 },
+    //   buildingType: 'corporate',
+    //   mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.8285!2d72.9060!3d19.1176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8c1c1234567%3A0xabcdefabcdef!2sPowai+Mumbai!5e0!3m2!1sen!2sin!4v1712345678903'
+    // }
   ];
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -114,7 +121,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+91 98765-43210', '+91 87654-32109'],
+      details: ['+91 9021437033', '+91 7447725602'],
       color: 'from-green-500 to-emerald-500'
     },
     {

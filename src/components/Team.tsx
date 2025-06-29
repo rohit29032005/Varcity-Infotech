@@ -4,53 +4,54 @@ import { Code, Brain, Database, Shield, Globe, Cpu } from 'lucide-react';
 const Team = () => {
   const teamMembers = [
     {
-      name: 'Dr. Priya Singh',
-      role: 'AI/ML Specialist',
-      expertise: 'Machine Learning, Deep Learning, Data Science',
+      name: 'Anamika Chaudhary',
+      role: 'Specialized Instructor in DFA',
+      expertise: 'Specilized in DFA, SAP, Power BI',
       icon: Brain,
-      experience: '12+ years',
+      experience: '6+ years',
       color: 'from-purple-500 to-pink-500'
     },
     {
-      name: 'Amit Kumar',
-      role: 'Full Stack Developer',
-      expertise: 'React, Node.js, MongoDB, AWS',
+      name: 'Suhani Singh ',
+      role: 'Specialized Instructor in ADFA',
+      expertise: 'Specialized in ADFA, SAP, Power BI',
       icon: Code,
-      experience: '10+ years',
+      experience: '8+ years',
       color: 'from-blue-500 to-cyan-500'
     },
     {
-      name: 'Sneha Patel',
-      role: 'Cybersecurity Expert',
-      expertise: 'Ethical Hacking, Penetration Testing',
+      name: 'Sneha Karmble',
+      role: 'Specialized Instructor in Web Development ',
+      expertise: 'Specialized in Web Development, HTML, CSS, JavaScript,Jquey and java,PHP,python',
       icon: Shield,
-      experience: '8+ years',
+      experience: '2+ years',
       color: 'from-red-500 to-orange-500'
     },
     {
-      name: 'Rajesh Sharma',
-      role: 'Data Engineer',
-      expertise: 'Big Data, Analytics, Cloud Computing',
+      name: 'Shweta Gupta',
+      role: 'DFA Instructor Marathi Typing',
+      expertise: 'DFA, Marathi Typing, Tally',
       icon: Database,
-      experience: '9+ years',
+      experience: '3+ years',
       color: 'from-green-500 to-emerald-500'
     },
     {
-      name: 'Anita Gupta',
-      role: 'Web Technologies Lead',
-      expertise: 'Frontend, UX/UI, Progressive Web Apps',
+      name: 'Deepa Pandey',
+      role: 'Specialized Instructor in DFA',
+      expertise: 'DFA, Tally, GST',
       icon: Globe,
-      experience: '11+ years',
+      experience: '3+ years',
       color: 'from-indigo-500 to-purple-500'
     },
     {
-      name: 'Vikram Joshi',
-      role: 'Embedded Systems Expert',
-      expertise: 'IoT, Microcontrollers, Hardware',
+      name: 'AKash kharwar',
+      role: 'Video Content Creator',
+      expertise: 'Video Editing, Content Creation, Digital Marketing',
       icon: Cpu,
-      experience: '13+ years',
+      experience: '2+ years',
       color: 'from-yellow-500 to-amber-500'
     }
+    
   ];
 
   return (
