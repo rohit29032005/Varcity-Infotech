@@ -14,7 +14,7 @@ const Contact = () => {
   const [isEditingLocation, setIsEditingLocation] = useState(false);
   const [currentLocation, setCurrentLocation] = useState({
     name: 'Varcity Infotech Computer Education-Boisar Branch',
-    address: ['Second Floor, Ostwal Empire, B/242', 'Arihant Market, above Aradhna Jewellers', 'opp. ST Bus Stand, Boisar, Maharashtra 401501'],
+    address: ['Office No.8,1st Floor,Hakimi Manzil,Above Panchwati Sweets,Opp.Railway Station,Palghar(W)'],
     coordinates: { lat: 19.799371, lng: 72.75864159999999 },
     buildingType: 'tech', // 'tech', 'university', 'corporate'
     mapUrl: 'https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d109959.7043257355!2d72.67623989975556!3d19.799352115452802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3be71ef842d07ae1%3A0x9da2e9352b83b99a!2sSecond%20Floor%2C%20Ostwal%20Empire%2C%20B%2F242%2C%20Arihant%20Market%2C%20above%20Aradhna%20Jewellers%2C%20opp.%20ST%20Bus%20Stand%2C%20W%2C%20Boisar%2C%20Maharashtra%20401501!3m2!1d19.799371!2d72.75864159999999!5e1!3m2!1sen!2sin!4v1750007887923!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
@@ -37,7 +37,7 @@ const Contact = () => {
     },
     {
       name: 'Varcity Infotech Computer Education-Boisar Branch',
-      address: ['Office No.8,1st Floor,Hakimi Manzil,Above Panchwati Sweets,Opp.Railway Station,Palghar(W)'],
+      address: ['Second Floor, Ostwal Empire, B/242 Arihant Market, above Aradhna Jewellers opp. ST Bus Stand, Boisar, Maharashtra 401501'],
       coordinates: { lat: 19.799371, lng: 72.75864159999999 },
       buildingType: 'tech',
       mapUrl: 'https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d109959.7043257355!2d72.67623989975556!3d19.799352115452802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3be71ef842d07ae1%3A0x9da2e9352b83b99a!2sSecond%20Floor%2C%20Ostwal%20Empire%2C%20B%2F242%2C%20Arihant%20Market%2C%20above%20Aradhna%20Jewellers%2C%20opp.%20ST%20Bus%20Stand%2C%20W%2C%20Boisar%2C%20Maharashtra%20401501!3m2!1d19.799371!2d72.75864159999999!5e1!3m2!1sen!2sin!4v1750007887923!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade'
@@ -121,19 +121,19 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+91 9021437033', '+91 7447725602'],
+      details: ['+91 7020397495','+91 9021437033'],
       color: 'from-green-500 to-emerald-500'
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@codemasterinstitute.com', 'support@codemasterinstitute.com'],
+      details: ['varcityedtech@gmail.com'],
       color: 'from-blue-500 to-cyan-500'
     },
     {
       icon: MapPin,
       title: 'Address',
-      details: currentLocation.address,
+      details: ['Office No.8,1st Floor,Hakimi Manzil,Above Panchwati Sweets,Opp.Railway Station,Palghar(W)'],
       color: 'from-purple-500 to-pink-500'
     },
     {
@@ -263,9 +263,18 @@ const Contact = () => {
                   <h4 className="text-lg font-semibold text-white">Live Chat Support</h4>
                   <p className="text-white/70 text-sm">Get instant answers to your questions</p>
                 </div>
-                <button className="px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-lg transition-colors duration-300">
+                {/* <button className="px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-lg transition-colors duration-300">
                   Chat Now
-                </button>
+                </button> */}
+                <a
+  href="https://wa.me/917020397495"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-4 py-2 bg-green-500 hover:bg-green-600 text-white rounded-lg transition-colors duration-300 flex items-center justify-center"
+>
+  Chat Now
+</a>
+
               </div>
             </div>
           </div>

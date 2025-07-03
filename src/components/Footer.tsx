@@ -52,15 +52,15 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3 text-white/70 hover:text-cyan-400 transition-colors">
                 <Mail className="w-4 h-4" />
-                <span className="text-sm">info@codemasterinstitute.com</span>
+                <span className="text-sm">varcityedtech@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-white/70 hover:text-cyan-400 transition-colors">
                 <Phone className="w-4 h-4" />
-                <span className="text-sm">+91 98765-43210</span>
+                <span className="text-sm">+91 7020397495</span>
               </div>
               <div className="flex items-center space-x-3 text-white/70 hover:text-cyan-400 transition-colors">
                 <MapPin className="w-4 h-4" />
-                <span className="text-sm">Silicon City, India</span>
+                <span className="text-sm">Office No.8,1st Floor,Hakimi Manzil,Above Panchwati Sweets,Opp.Railway Station,Palghar(W)</span>
               </div>
             </div>
 
