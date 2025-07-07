@@ -5,7 +5,7 @@ const Team = () => {
   const teamMembers = [
     {
       name: 'Anamika Chaudhary',
-      role: 'Specialized Instructor in DFA',
+      role: 'Specialized Instructor in ADFA',
       expertise: 'Specilized in DFA, SAP, Power BI',
       icon: Brain,
       experience: '6+ years',
@@ -16,11 +16,11 @@ const Team = () => {
       role: 'Specialized Instructor in ADFA',
       expertise: 'Specialized in ADFA, SAP, Power BI',
       icon: Code,
-      experience: '8+ years',
+      experience: '5+ years',
       color: 'from-blue-500 to-cyan-500'
     },
     {
-      name: 'Sneha Karmble',
+      name: 'Sneha Karambele',
       role: 'Specialized Instructor in Web Development ',
       expertise: 'Specialized in Web Development, HTML, CSS, JavaScript,Jquey and java,PHP,python',
       icon: Shield,
