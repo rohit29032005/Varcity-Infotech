@@ -137,7 +137,7 @@ const Footer = () => {
               <div className="flex items-center space-x-2">
                 <input type="checkbox" id="newsletter" className="rounded border-white/20" />
                 <label htmlFor="newsletter" className="text-white/70 text-xs">
-                  I agree to receive marketing emails
+                  I agree to receive marketing emails and updates from Varcity.
                 </label>
               </div>
             </div>
@@ -146,11 +146,11 @@ const Footer = () => {
             <div className="mt-6 space-y-2">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <span className="text-white/70 text-xs">20,000+ Students Trained</span>
+                <span className="text-white/70 text-xs">20,000+ Students Trained from Palghar,Boisar</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-blue-400 rounded-full animate-pulse delay-150"></div>
-                <span className="text-white/70 text-xs">95% Placement Rate</span>
+                <span className="text-white/70 text-xs">95% Placement Rate from Palghar,Boisar</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse delay-300"></div>
