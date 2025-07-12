@@ -23,9 +23,9 @@ const Hero = () => {
     <>
       {/* UPDATED: Added SEO component for homepage */}
       <SEO 
-        title="Varcity Infotech - Full Stack Development & Web Design Training in India"
-        description="Leading custom software company in India offering full stack development, web design, and digital solutions training. Join 20,000+ students worldwide."
-        keywords="full stack development, web design, digital solutions, custom software company India, React training, JavaScript courses, MERN stack"
+        title="Varcity Infotech - No 1. Full Stack Development & Web Design Training in Palghar & Boisar"
+        description="No 1. custom software Teaching Center in Palghar & Boisar offering full stack development, web design, and digital solutions training. Join 20,000+ students worldwide."
+        keywords="full stack development, web design, digital solutions,Tally,Palghar,Boisar,No 1.Institute in palghar & boisar, custom software company India, React training, JavaScript courses, MERN stack"
         canonical="https://www.varcityinfotech.com"
       />
 
@@ -45,7 +45,7 @@ const Hero = () => {
           </h1>
 
           <h2 className="text-xl md:text-2xl lg:text-3xl font-semibold mb-8 text-white/90">
-            Leading Teaching Center in Palghar & Boisar - From Logic To Legacy
+            No 1. Teaching Center in Palghar & Boisar - From Logic To Legacy
           </h2>
 
           <p className="text-lg md:text-xl text-white/80 mb-12 max-w-4xl mx-auto leading-relaxed">
